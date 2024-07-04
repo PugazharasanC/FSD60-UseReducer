@@ -74,7 +74,7 @@ const ToDo = ({
 };
 
 ToDo.propTypes = {
-  id: PropTypes.number.isRequired,
+  id: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
   completed: PropTypes.bool.isRequired,
   toggleCompleted: PropTypes.func.isRequired,
